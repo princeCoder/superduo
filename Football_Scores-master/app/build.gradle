@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+def FOOTBALL_SCORE_API_KEY = '"' + FootballScoreAPIKey + '"' ?: '"Missing Football Scores API Key"'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "barqsoft.footballscores"
+        minSdkVersion 10
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    packagingOptions{
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+
+    buildTypes {
+        all {
+            buildConfigField 'String', 'FOOTBALL_SCORE_API_KEY', FOOTBALL_SCORE_API_KEY
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'it.sephiroth.android.library.picasso:picasso:2.5.2.3'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.caverock:androidsvg:1.2.2-beta-1'
+    compile 'com.hynnet:httpclient:4.5.1'
+}

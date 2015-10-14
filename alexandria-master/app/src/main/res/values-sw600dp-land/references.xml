@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_full_book" type="layout">@layout/fragment_full_book_large</item>
+</resources>

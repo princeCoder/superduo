@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Football Scores</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_text">Test</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="champions_league">UEFA Champions League</string>
+    <string name="bundesliga">Bundesliga</string>
+    <string name="premierleague">Premier League</string>
+    <string name="primeradivison">Primera Division</string>
+    <string name="seriaa">Serie A</string>
+    <string name="matchday_text">Match day</string>
+    <string name="group_stage_text">Group stages</string>
+    <string name="first_knockout_round">First knockout round</string>
+    <string name="quarter_final">Quarter Final</string>
+    <string name="semi_final">Semi Final</string>
+    <string name="final_text">Final</string>
+    <string name="share_text">Share</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_text">
+        This Application get Football Matches Score for the Premier League,Seria A,Bundesliga,Primera Division
+        and the Uefa Champions League.
+        All Matches data are acquired from football-data.org free API.
+        All team Logos are acquired from http://hdlogo.wordpress.com/ upon requesting permission form the owner.
+        The original version of this app was created by Yahia Khalid Ibn El Walid Ahmed, and a modified version is given to students in the Udacity Android Nanodegree program.
+        To report any bugs,or suggestions do not hesitate to send a mail to y.k.ibnelwalid@gmail.com.
+
+        During the off season, fake data will be added to the app.
+    </string>
+    <string name="widget_text">This is a widget probably.</string>
+
+    <!--API Key. I prefered to saved mine in the buid.gradle file just to hide it for the public-->
+    <string name="api_key">Enter your api_key here</string>
+
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">barqsoft.footballscores</string>
+    <string name="content_authority">barqsoft.footballscores</string>
+    <string name="empty_score_list">There is no game scheduled for today</string>
+    <string name="share_match">Share the match</string>
+    <string name="date_format">yyyy-MM-dd</string>
+    <string name="current_tab_tag">CURRENT_TAB</string>
+    <string name="empty_view_loading">Loading ......</string>
+    <string name="empty_view_no_game">There is no game scheduled</string>
+    <string name="selected_match_tag">Selected_match</string>
+    <string name="bl1">Bundesliga 1</string>
+    <string name="bl2">Bundesliga 2</string>
+    <string name="bl3">Bundesliga 3</string>
+    <string name="pl">Premiere League</string>
+    <string name="el1">League One</string>
+    <string name="sa">Serie A</string>
+    <string name="sb">Serie B</string>
+    <string name="pd">Primera Division</string>
+    <string name="sd">Segunda Division</string>
+    <string name="fl1">Ligue 1</string>
+    <string name="fl2">Ligue 2</string>
+    <string name="ded">Eredivisie</string>
+    <string name="ppl">Primeira Liga</string>
+    <string name="gsl">Super League</string>
+    <string name="cl">Champions-League</string>
+    <string name="el">UEFA-Cup</string>
+    <string name="ec">European-Cup of Nations</string>
+    <string name="wc">World-Cup</string>
+    <string name="api_token">X-Auth-Token</string>
+    <string name="http_method">GET</string>
+    <string name="timeframe">timeFrame</string>
+    <string name="fixtures">fixtures</string>
+    <string name="simple_date_format">yyyy-MM-ddHH:mm:ss</string>
+    <string name="date_conversion_pb">----------- Cannot convert the date ---------------</string>
+    <string name="Unknown_League">Unknown League</string>
+    <string name="unknow_uri">"Unknown uri : "</string>
+    <string name="drop_table_request">"DROP TABLE IF EXISTS "</string>
+    <string name="football_score_hashtag">#Football_Scores</string>
+
+</resources>
